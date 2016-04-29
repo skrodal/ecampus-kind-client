@@ -2,7 +2,7 @@
 
 	// Når hele dokumentet er lastet
 	$( document ).ready(function() {
-		//  ...HVIS vi har en Connect token
+		//  ...HVIS vi har en token fra Dataporten
 		if(DATAPORTEN_AUTH.token()){
 			// Wait for userinfo to complete
 			$.when(DATAPORTEN.xhrUserInfo()).done(function(data){
@@ -127,7 +127,7 @@
 	});
 	
 	// LOGOUT
-	$('body').on('click', '.connect-logout', function(){
+	$('body').on('click', '.dataporten-logout', function(){
 		console.log('LOGOUT');
 		DATAPORTEN_AUTH.logout();
 	});

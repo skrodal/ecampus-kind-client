@@ -55,7 +55,7 @@
         <div class="box-body">
             <p>Denne klienten lister og kan kjøre alle endepunkter tilgjengelig i uninett-kind API.</p>
 
-            <p>Interaksjon med API krever at klient registreres i UNINETT Connect tjenesteplattform.</p>
+            <p>Interaksjon med API krever at klient registreres i UNINETT DATAPORTEN tjenesteplattform.</p>
 
             <p><strong>Eksterne lenker</strong></p>
 

@@ -36,7 +36,7 @@
 						<!-- Menu Footer-->
 						<li class="user-footer">
 							<div class="pull-right">
-								<a href="#" class="btn btn-sm ion-log-out connect-logout"> Logg ut</a>
+								<a href="#" class="btn btn-sm ion-log-out dataporten-logout"> Logg ut</a>
 							</div>
 						</li>
 					</ul>

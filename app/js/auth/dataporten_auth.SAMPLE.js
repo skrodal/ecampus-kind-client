@@ -13,19 +13,19 @@
 			providerID		: 	"DP-KindTing",
 			client_id		:	"DASHBOARD",
 			redirect_uri	: 	"DASHBOARD",
-			authorization	: 	"https://auth.DATAPORTEN.no/oauth/authorization/"
+			authorization	: 	"https://auth.dataporten.no/oauth/authorization/"
 		 },
 		 dp_endpoints	:	{
 			// For tilgang må klienten ha bedt om dette scopet i Dashboard
-			groups: 	"https://groups-api.DATAPORTEN.no/groups/",
+			groups: 	"https://groups-api.dataporten.no/groups/",
 			// Base-URL for bildefil 		
-			photo: 		"https://auth.DATAPORTEN.no/user/media/",
+			photo: 		"https://auth.dataporten.no/user/media/",
 			// BrukerID, navn og profilbilde. For mer info (eks. epost, Feide-ting) må scopes etterspørres i Dashboard.
-			userinfo: 	"https://auth.DATAPORTEN.no/userinfo"
+			userinfo: 	"https://auth.dataporten.no/userinfo"
 		 }, 
 		 api_endpoints	:	{
 			// Andre 3.parts-APIer klienten har tilgang til via Dataporten (DASHBOARD)
-			kind : 'https://ecampus-kind.DATAPORTEN-api.no/api/ecampus-kind/'
+			kind : 'https://ecampus-kind.dataporten-api.no/api/ecampus-kind/'
 		 },
 		 kind_test 		:	{
 			 service_id		:	'SOME_KIND_SERVICE_ID',
@@ -67,7 +67,7 @@
 		// Dreper sesjonen, inkludert Feide-sesj.
 		logout: function(){
 			jso.wipeTokens();				
-			window.location.replace("https://auth.DATAPORTEN.no/logout");
+			window.location.replace("https://auth.dataporten.no/logout");
 		}, 
 		// Slett sesjon - krever ny runde med godkjenning (men slipper Feide-auth på nytt)
 		wipeTokens: function(){
